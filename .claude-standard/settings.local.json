@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash({프론트엔드 의존성 설치 명령어})",
+      "Bash({프론트엔드 실행 명령어})",
+      "Bash({프론트엔드 빌드 명령어})",
+      "Bash({프론트엔드 린트 명령어})",
+      "Bash({백엔드 정리 명령어})",
+      "Bash({백엔드 빌드 명령어})",
+      "Bash({백엔드 실행 명령어})",
+      "Bash({백엔드 테스트 명령어})",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git branch*)",
+      "Bash(git add *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(cat *)",
+      "Bash(wc *)",
+      "Bash(curl *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(pwd)",
+      "Bash(which *)",
+      "Bash(whoami)",
+      "Bash(date)",
+      "Bash(docker ps*)",
+      "Bash(docker images*)",
+      "Bash(docker logs*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(docker rm *)",
+      "Bash(docker rmi *)"
+    ]
+  }
+}

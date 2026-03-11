@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash({의존성 설치 명령어})",
+      "Bash({개발 서버 실행 명령어})",
+      "Bash({프로덕션 빌드 명령어})",
+      "Bash({린트 명령어})",
+      "Bash({스토리북 실행 명령어})",
+      "Bash({테스트 명령어})",
+      "Bash({토큰 빌드 명령어})",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git branch*)",
+      "Bash(git add *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(cat *)",
+      "Bash(wc *)",
+      "Bash(curl *)",
+      "Bash(echo *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(pwd)",
+      "Bash(which *)",
+      "Bash(whoami)",
+      "Bash(date)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)"
+    ]
+  }
+}
